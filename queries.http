@@ -1,0 +1,25 @@
+POST  http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+    "author": "FS",
+    "title": "Backend Cource",
+    "content": "asasas"
+}
+
+###
+
+
+GET  http://localhost:5000/api/posts
+
+
+###
+
+GET  http://localhost:5000/api/posts/60d1df853406c30910e6b4b2
+
+###
+
+
+
+
+DELETE  http://localhost:5000/api/posts/60d1da3f09444e17245856bb
